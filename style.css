@@ -6,25 +6,35 @@ body {
 }
 
 /* global */
-p {
-    font-family: sans-serif;
-    color: #e0e0e0;
-    font-size: 16px;
-}
 .button {
     background-color: #e76f51;
-}
-/* header */
-header {
-    background: #264653;
 }
 
 .title {
     font-size: 48px;
+    font-weight: 600;
+}
+
+/* header */
+header {
+    background: #264653;
+}
+/* hero-section */
+.hero-section p {
+    font-family: sans-serif;
+    color: #e0e0e0;
+    font-size: 16px;
 }
 
 /* featured bikes*/
-
 .gray-img {
     filter: grayscale(100%);
+}
+
+/* clients */
+.clients p {
+    color: #6c6c6c;
+}
+.star-icon {
+    color: #e77c40;
 }
