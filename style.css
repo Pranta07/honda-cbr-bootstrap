@@ -7,7 +7,8 @@ body {
 
 /* global */
 p {
-    color: #ada9a9;
+    font-family: sans-serif;
+    color: #e0e0e0;
     font-size: 16px;
 }
 .button {
@@ -20,4 +21,10 @@ header {
 
 .title {
     font-size: 48px;
+}
+
+/* featured bikes*/
+
+.gray-img {
+    filter: grayscale(100%);
 }
